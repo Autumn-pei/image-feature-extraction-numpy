@@ -1,0 +1,20 @@
+# ===== 大权重与参考数据：不纳入 Git，由课程附件提供 =====
+weights/*.npz
+assets/reference_outputs.npz
+
+# ===== 运行产物 =====
+output_tokens.npz
+*.npz
+
+# ===== Python 缓存 =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ===== 课堂示例生成的图片输出 =====
+lecture-demos/image-outputs/
+
+# ===== 系统与编辑器 =====
+.vscode/
+.DS_Store
+Thumbs.db
